@@ -1,0 +1,67 @@
+@import '../default.scss';
+
+.project-item {
+  margin: 1rem 1.6rem;
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .card-spec {
+    color: $gray;
+    font-size: 0.8rem;
+  }
+
+  .card-tech-list {
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  .card-user {
+    font-size: 0.8rem;
+    line-height: 0.1rem;
+  }
+
+  .card-user-spec {
+    font-size: 0.8rem;
+    color: $gray;
+  }
+
+  .card-bottom {
+    display: flex;
+    font-size: 0.8rem;
+    color: $gray;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+
+    .card-like {
+      padding-right: 0.5rem;
+    }
+    .card-date {
+      margin-left: auto;
+    }
+  }
+}
+
+.project-item:nth-child(1) {
+  grid-column: 1;
+}
+
+.project-item:nth-child(2) {
+  grid-column: 2;
+}
+
+.project-item:nth-child(3) {
+  grid-column: 3;
+}
+
+.project-item:nth-child(4) {
+  grid-column: 4;
+}
+
+.project-item:hover {
+  cursor: pointer;
+  background-color: $secondary;
+}

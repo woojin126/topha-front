@@ -1,0 +1,32 @@
+@import '../default.scss';
+
+.sign-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6rem 20rem;
+
+  .input {
+    width: 100%;
+
+    .label {
+      width: 3rem;
+    }
+    .field {
+      width: 10rem;
+      float: right;
+    }
+  }
+
+  .divider {
+    width: 0.6rem;
+  }
+  .complete-button {
+    display: flex;
+    width: 6rem;
+    align-items: center;
+    margin: auto;
+    background-color: $success;
+  }
+}

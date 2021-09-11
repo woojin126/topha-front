@@ -1,0 +1,64 @@
+.project-list {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, auto));
+  grid-template-rows: repeat(3, auto);
+
+  .project-list-title {
+    font-size: 1.8rem;
+    grid-row: 1;
+    grid-column: 2/5;
+
+    margin-bottom: 0.6rem;
+  }
+
+  .divider {
+    width: 100%;
+    height: 0.2rem;
+    grid-row: 2;
+    grid-column: 2/5;
+  }
+
+  .project-list-filter {
+    padding: 1rem;
+    grid-row: 2;
+    grid-column: 2/5;
+
+    .filter-chip {
+      padding: 0rem 1rem;
+      margin: 0rem 0.5rem;
+    }
+  }
+
+  .project-list-search {
+    padding: 1rem;
+    grid-row: 2;
+    grid-column: 4/5;
+    position: relative;
+    input {
+      background: #f0f0f0;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      height: 2.5rem;
+      padding-left: 0.6rem;
+    }
+    input:focus {
+      outline: none;
+    }
+    img {
+      position: absolute;
+      top: 1.7rem;
+      right: 1.3rem;
+    }
+  }
+
+  .project-list-items {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    width: 100%;
+    height: 100%;
+    grid-row: 3;
+    grid-column: 2/5;
+  }
+}

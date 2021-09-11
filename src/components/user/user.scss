@@ -1,0 +1,50 @@
+@import '../default.scss';
+
+.user-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6rem 20rem;
+
+  .sign-input {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+
+    .label {
+      display: block;
+      width: 10rem;
+    }
+    .field {
+      width: 10rem;
+    }
+  }
+
+  .divider {
+    height: 0.2rem;
+    width: 100%;
+  }
+
+  .button-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .back-button {
+      margin: 1rem 1rem;
+      position: relative;
+      align-items: center;
+      background-color: $warning;
+    }
+
+    .complete-button {
+      margin: 1rem 1rem;
+      position: relative;
+      align-items: center;
+      background-color: $success;
+    }
+  }
+}

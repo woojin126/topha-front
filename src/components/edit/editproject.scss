@@ -1,0 +1,54 @@
+@import '../default.scss';
+
+.np-wrapper {
+  display: grid;
+  width: 100%;
+  margin-top: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(20%, auto));
+  grid-template-rows: repeat(5, auto);
+
+  .project-title {
+    grid-column: 2/5;
+    grid-row: 1;
+    margin-bottom: 1.6rem;
+  }
+
+  .project-spec {
+    grid-column: 2/5;
+    grid-row: 2;
+    margin-bottom: 1.6rem;
+  }
+
+  .project-tech {
+    grid-column: 2/5;
+    grid-row: 3;
+    margin-bottom: 1.6rem;
+  }
+
+  .np-button {
+    grid-column: 4/5;
+    grid-row: 5;
+
+    .complete-button {
+      margin: 1rem;
+      width: 6rem;
+      align-items: center;
+      background-color: $success;
+    }
+
+    .cancel-button {
+      margin: 1rem;
+      width: 6rem;
+      align-items: center;
+      background-color: $warning;
+    }
+  }
+
+  .editor {
+    grid-column: 2/5;
+    grid-row: 4;
+
+    padding-bottom: 3rem;
+    height: 20rem;
+  }
+}

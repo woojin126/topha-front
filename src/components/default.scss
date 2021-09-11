@@ -1,0 +1,21 @@
+@import './font.scss';
+
+$primary: #ccffec;
+$secondary: #ffe8cf;
+$error: #ff7272;
+$success: #99d2bd;
+$warning: #d9a46b;
+$warning-hover: #b18454;
+$kakao: #fae100;
+$kakao-hover: #cfbb00;
+$white: #ffffff;
+$gray: #ada8a8;
+$black: #000000;
+html,
+body {
+  font-family: 'cafe24';
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,30 @@
+@import '../default.scss';
+
+.notfound {
+  margin: 10rem auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  .notfound-image {
+    width: 30rem;
+  }
+  .button-notfound {
+    font-size: 1.2rem;
+    font-family: 'cafe24';
+    background-color: $warning;
+  }
+
+  .button-notfound:hover {
+    background-color: $warning-hover;
+  }
+
+  .notfound-title {
+    font-size: 2.4rem;
+    font-family: 'cafe24';
+  }
+
+  .notfound-content {
+    font-size: 1.6rem;
+  }
+}
